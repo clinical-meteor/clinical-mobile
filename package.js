@@ -1,7 +1,7 @@
 Package.describe({
   name: 'clinical:mobile',
   version: '0.0.1',
-  summary: '',
+  summary: 'Consolidated mobile support for Clinical Meteor apps - fastclick, gestures, feature detection, etc.',
   git: 'https://github.com/clinical-meteor/clinical-mobile',
   documentation: 'README.md'
 });

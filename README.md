@@ -1,5 +1,5 @@
 ## clinical:mobile
-Layout templates with keybindings and animations.
+Consolidated mobile support for Clinical Meteor apps - fastclick, gestures, feature detection, etc.
 
 ===============================
 #### Installation
