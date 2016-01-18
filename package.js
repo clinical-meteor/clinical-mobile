@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
 
-  api.use('hammer:hammer');
+  api.use('hammer:hammer@2.0.4_2');
   api.use('fastclick');
 
   api.addFiles('lib/Mobile.js');
