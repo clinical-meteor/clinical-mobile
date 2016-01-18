@@ -9,16 +9,16 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
 
-  api.use('hammer:hammer')
+  api.use('hammer:hammer');
+  api.use('fastclick');
 
+  api.addFiles('lib/Mobile.js');
 
-  fastclick
-
-  api.addFiles('mobile.js');
+  api.export('Mobile');
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('clinical:mobile');
-  api.addFiles('mobile-tests.js');
+  api.addFiles('tests/gagarin/mobile.js');
 });
